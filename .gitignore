@@ -1,7 +1,7 @@
 data/relation/industry/*
 data/relation/wiki/*
-data/stocks/NASDAQ/*
-data/stocks/NYSE/*
-data/stocks/processed/NASDAQ/*
-data/stocks/processed/NYSE/*
+data/stocks/NASDAQ/*.csv
+data/stocks/NYSE/*.csv
+data/stocks/processed/NASDAQ/*.csv
+data/stocks/processed/NYSE/*.csv
 data/stocks/processed/*.txt
