@@ -436,8 +436,8 @@ if __name__ == '__main__':
     parser.add_argument('-use_log', type=bool, default=True, help='whether to use log price or not')
     args = parser.parse_args()
     
-    # construct_frac_diff_features('NASDAQ', thres=args.thres, num_ds=args.num_d, use_log_prc=args.use_log)
-    # construct_frac_diff_features('NYSE', thres=args.thres, num_ds=args.num_d, use_log_prc=args.use_log)
+    construct_frac_diff_features('NASDAQ', thres=args.thres, num_ds=args.num_d, use_log_prc=args.use_log)
+    construct_frac_diff_features('NYSE', thres=args.thres, num_ds=args.num_d, use_log_prc=args.use_log)
     
     select_stock_tickers(args.s_date, args.e_date, args.m_trd)
     
