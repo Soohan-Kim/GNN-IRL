@@ -71,7 +71,7 @@ class GNN(nn.Module):
     return e_final
 
 
-############### DRIVER MODEL (학습위해 병합) #################
+############### DRIVER MODEL #################
 
 class TGC(nn.Module):
   
