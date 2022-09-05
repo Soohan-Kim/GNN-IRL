@@ -2,15 +2,15 @@
 
 1. Getting Data
     
-    python3 get_data.py
+    `python3 get_data.py`
 
 2. Preprocess
 
-    python3 preprocess.py -s_date={s_date} -e_date={e_date} -m_trd={m_trd} -thres={thres} -num_d={num_d} -use_log={use_log}
+    `python3 preprocess.py -s_date={s_date} -e_date={e_date} -m_trd={m_trd} -thres={thres} -num_d={num_d} -use_log={use_log}`
 
 3. Train & Test
 
-    python3 main.py
+    `python3 main.py`
 - Change the settings in configs.py to conduct different experiments
 - For training, trains with same configs for NASDAQ, NYSE and industry, wiki relations (total 4 rounds)
 
